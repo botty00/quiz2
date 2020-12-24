@@ -1,0 +1,66 @@
+{% extends 'base.html' %} 
+{% load static %}
+
+{% block header %}
+{% endblock header %}
+
+{% block content %}
+{% load static %}
+<audio autoplay loop>
+  <source src="{% static 'cat life.m4a' %}" type="audio/mp3">
+  
+</audio>
+
+{% if user.username %}
+<a href="{% url 'logoutview' %}" class="btn btn-primary ">ログアウト</a>
+
+<table border="0" height="100%" width="100%">
+  
+  <tr>
+    <td style="height:100%;" vertical-align="middle" align="center">
+      
+    
+      <div class="container">
+       
+        <div class="container-fluid">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <font size="20em" face="游明朝 Demibold" >ボン人検定</font>      
+              
+            </div>
+          </div>
+         <br><br><br><br>
+         <div class="row">
+          <div class="col-md">
+          <a href="{% url 'question1' %}" class="btn btn-dark btn-lg btn-block">初級</a>
+          <br>
+          </div>
+          <div class="col-md">
+          <a href="{% url 'question2' %}" class="btn btn-dark btn-lg btn-block">中級</a>
+          <br>
+          </div>
+          <div class="col-md">
+          <a href="{% url 'question3' %}" class="btn btn-dark btn-lg btn-block">上級</a>
+          </div>
+         </div>
+         <br><br>
+         <div class="card" >
+          <div class="card-body">
+            20問中15問以上クリアで合格！  
+            
+          </div>
+         </div> 
+       </div>
+      </div>
+    </td>
+  </tr>
+
+
+
+</table>
+{% else %}
+<a href="{% url 'top' %}" class="btn btn-primary">スタート画面へ</a>
+{% endif %}
+
+    
+  {% endblock content %}

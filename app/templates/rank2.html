@@ -1,0 +1,67 @@
+{% extends 'base.html' %} 
+
+{% block header %}
+{% endblock header %}
+
+{% block content %}
+
+<div class="container">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-md">
+              <table border="2" height="100%" width="100%">
+                  <tr>
+                      <td colspan="3" align="center">
+                        <div class="bg-white text-dark">ランキング（中級）</div>
+                          
+                      </td>
+                  </tr>
+                  <tr>
+                      <td align="center">
+                        <div class="bg-white text-dark">順位</div>
+                          
+                      </td>
+                      <td align="center">
+                        <div class="bg-white text-dark">ユーザーネーム</div>
+                          
+                      </td>
+                      <td align="center">
+                        <div class="bg-white text-dark">ハイスコア</div>
+                          
+                      </td>
+                    
+                
+                  </tr>
+                  {% for user in username %}
+                  <tr>
+                      <td align="center">
+                        <div class="bg-white text-dark"> {{ forloop.counter }}</div>
+                         
+                      </td>
+                      <td align="center">
+                        <div class="bg-white text-dark"> {{ user.username }}</div>
+                         
+                      </td>
+                      <td align="center">
+                        <div class="bg-white text-dark">{{ user.high_score2 }}点</div>
+                          
+                      </td>
+                     
+                  </tr>
+                
+                  {% endfor %}
+              </table>
+          </div>
+          
+     </div>
+     <br>
+     <div class="col text-center">
+      <a href="{% url 'start' %}" class="btn btn-primary">スタート画面へ</a> 
+     </div>
+     
+
+
+ </div>
+ </div>
+
+ {% endblock content %}

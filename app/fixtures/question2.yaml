@@ -1,0 +1,139 @@
+- model: app.Question_model2
+  pk: 1
+  fields: 
+    question: "メインの動画でトミーさんの総ツッコミ数は1万回を超えている。"
+    answer: false
+    comment: "正解は✕！現在のトミーさんの総ツッコミ数は4535回です。"
+
+- model: app.Question_model2
+  pk: 2
+  fields: 
+    question: "メインの動画に一番多く出演している後輩はPさんである。"
+    answer: false
+    comment: "正解は✕！一番多く出演している後輩はPさんではなくキイチさんで、212回です。"
+
+- model: app.Question_model2
+  pk: 3
+  fields: 
+    question: "カンタはマイケルというミドルネームをマリーさんに名付けられた。"
+    answer: false
+    comment: "正解は✕！カンタさんはマリーさんではなくメリーさんにマイケルと名付けられました。"
+    
+- model: app.Question_model2
+  pk: 4
+  fields: 
+    question: "トミーさんはウィダーinゼリーを1秒以内に完食した。"
+    answer: false
+    comment: "正解は✕！トミーさんはウィダーinゼリーを1.9秒で完食していました。"  
+
+- model: app.Question_model2
+  pk: 5
+  fields: 
+    question: "メインの全ての動画にトミーとカンタ2人とも出演している。"
+    answer: false
+    comment: "正解は✕！トミーさんかカンタさんどちらかしか出演していない回があります。例）「相方（カンタ）について。」" 
+
+- model: app.Question_model2
+  pk: 6
+  fields: 
+    question: "元気先生の出演回数は50回を超えている。"
+    answer: true
+    comment: "正解は〇！現在の元気先生の出演回数は74回です。" 
+
+- model: app.Question_model2
+  pk: 7
+  fields: 
+    question: "メインの一番最初の動画からCat lifeは使われていた。"
+    answer: false
+    comment: "正解は✕！一番最初の動画ではCat lifeは使われていませんでした。ちなみに一番最初にCat lifeが使われた動画は「世界一長い自撮り棒を作って小さく映る自分を撮影できるか」という動画です。" 
+
+- model: app.Question_model2
+  pk: 8
+  fields: 
+    question: "Cat lifeには歌詞が存在する。（キャンタライフ以外で）"
+    answer: true
+    comment: "正解は〇！Cat lifeには歌詞が存在します。「水溜りボンドの歌」で検索すると出てくるのでぜひ聴いてみてください。" 
+
+- model: app.Question_model2
+  pk: 9
+  fields: 
+    question: "ラファエルとコラボしたことがある。"
+    answer: true
+    comment: "正解は〇！。ラファエルさんと2回コラボしています。例）「1000円ガチャ当たるまで引き続けたら当たったけど地獄待ってた」"
+
+- model: app.Question_model2
+  pk: 10
+  fields: 
+    question: "Pさんとキイチは学年が同じである。"
+    answer: false
+    comment: "正解は✕！Pさんとキイチさんの学年は違います。Pさんはトミーさんやカンタさんと学年が同じで、キイチさんより一つ上です。" 
+
+- model: app.Question_model2
+  pk: 11
+  fields: 
+    question: "壺男は100回クリアすると金色になる。"
+    answer: false
+    comment: "正解は✕！壺男は100回ではなく50回クリアすると金色になります。僕（作成者）は現在、100日間壺男チャレンジをやっています。"
+
+- model: app.Question_model2
+  pk: 12
+  fields: 
+    question: "レペゼン地球とコラボしたことがある。"
+    answer: true
+    comment: "正解は〇！レペゼン地球と2回コラボしたことがあります。例）「【100万人超えのチャンネル削除】レペゼン地球を更生させたい。」" 
+
+- model: app.Question_model2
+  pk: 13
+  fields: 
+    question: "初めてメインの動画に出演した後輩はキイチである。"
+    answer: false
+    comment: "正解は✕！初めてメインの動画に出演した後輩はキイチさんではなくけんてぃーさんです。"  
+
+- model: app.Question_model2
+  pk: 14
+  fields: 
+    question: "初めてメインの動画に出演した水溜りボンド以外のYouTuberはおるたなchannelである。"
+    answer: false
+    comment: "正解は✕！初めてメインの動画に出演したYouTuberはおるたなchannelさんではなくはじめしゃちょーさんです。"  
+
+- model: app.Question_model2
+  pk: 15
+  fields: 
+    question: "北の打ち師達とコラボしたことがある。"
+    answer: true
+    comment: "正解は〇！北の打ち師達と3回コラボしたことがあります。例）「後輩と話した内容その日のうちにMVにされて晒されるドッキリwww」"  
+
+- model: app.Question_model2
+  pk: 16
+  fields: 
+    question: "カンタは女装したことがない。"
+    answer: false
+    comment: "正解は✕！カンタさんは女装したことがあります。例）「カンタ、女装すればくまみきさんになれる説【くまみきさんコラボ】」"  
+
+- model: app.Question_model2
+  pk: 17
+  fields: 
+    question: "メインの動画での総ドッキリ数は200回以上である。"
+    answer: true
+    comment: "正解は〇！現在、メインでの総ドッキリ数は270回です。"
+
+- model: app.Question_model2
+  pk: 18
+  fields: 
+    question: "トミーが1番嫌いなものは鳩である。"
+    answer: false
+    comment: "正解は✕！トミーさんが1番嫌いなものは鳩ではなくネズミです。"   
+
+- model: app.Question_model2
+  pk: 19
+  fields: 
+    question: "カンタは100㎞を17時間で完走した。"
+    answer: true
+    comment: "正解は〇！カンタさんは100㎞を17時間で完走しました。ちなみに僕（作成者）は100㎞完走するのに38時間かかりました。" 
+
+- model: app.Question_model2
+  pk: 20
+  fields: 
+    question: "水溜りポーズを5秒以内にできますか？"
+    answer: true
+    comment: "左腕はまっすぐ下ろして、右ひじを斜め30度くらいに曲げます。そう。それが水溜りポーズ。"     

@@ -1,0 +1,87 @@
+{% extends 'base.html' %} 
+
+{% block header %}
+
+{% endblock header %}
+
+{% block content %}
+<table border="0" height="100%" width="100%">
+  <tr>
+    <td style="height:100%;" vertical-align="middle" align="center">
+    
+      <div class="container">
+       
+        <div class="container-fluid">
+          
+        
+         {% if blg == 1 %} 
+         <div class="card" style="width: 15rem;">
+          <div class="card-body">
+            <font size="20em" face="游明朝 Demibold">合格</font>      
+            
+          </div>
+        </div>    
+          
+          {% load static %}
+          <audio autoplay >
+          <source src="{% static 'ドドン.mp3' %}" type="audio/mp3">
+          </audio>
+         {% else %} 
+         <div class="card" style="width: 15rem;">
+          <div class="card-body">
+            <font size="20em" face="游明朝 Demibold">不合格</font>       
+            
+          </div>
+        </div> 
+          
+          {% load static %}
+          <audio autoplay >
+          <source src="{% static 'チーン.mp3' %}" type="audio/mp3">
+          </audio>
+          
+         {% endif %}
+         <br>
+         <div class="card" style="width: 15rem;">
+          <div class="card-body">
+            正解数は{{result}}       
+            
+          </div>
+        </div> 
+         
+        
+            
+        
+        <br><br><br><br>
+        <div class="row">
+        <div class="col-md">
+        <a href="{% url 'start' %}" class="btn btn-primary btn-block">もう一度遊ぶ</a>
+        <br>
+        </div>
+        <div class="col-md">
+        {% if lev == 1 %}
+        <a href="{% url 'rank' %}" class="btn btn-primary btn-block">ランキング</a>
+        {% elif lev == 2 %}
+        <a href="{% url 'rank2' %}" class="btn btn-primary btn-block">ランキング</a>
+        {% elif lev == 3 %}
+        <a href="{% url 'rank3' %}" class="btn btn-primary btn-block">ランキング</a>
+        {% endif %}
+       
+
+       
+        </div>
+        </div>
+        
+        
+        </div>    
+        </div>
+        
+        </div>
+    </td>
+  </tr>
+
+
+
+</table>    
+
+    
+  {% endblock content %}

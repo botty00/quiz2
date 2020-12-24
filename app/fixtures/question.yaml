@@ -1,0 +1,140 @@
+- model: app.Question_model
+  pk: 1
+  fields: 
+    question: "水溜りボンドのチャンネル登録者数は400万人以上である。"
+    answer: true
+    comment: "正解は〇！現在のチャンネル登録者数は428万人です。"
+
+- model: app.Question_model 
+  pk: 2
+  fields: 
+    question: "トミーの本名は富永友義である。"
+    answer: false
+    comment: "正解は✕！トミーさんの本名は友義ではなく知義です。"
+
+- model: app.Question_model
+  pk: 3
+  fields: 
+    question: "カンタの本名は佐藤寛太である。"
+    answer: false
+    comment: "正解は✕！カンタさんの本名は佐藤マイケル寛太です。"  
+
+- model: app.Question_model
+  pk: 4
+  fields: 
+    question: "カンタの誕生日は4月5日である。"
+    answer: false
+    comment: "正解は✕！カンタさんの誕生日は4月4日です。ちなみに4月5日はキイチさんの誕生日です。"  
+
+- model: app.Question_model
+  pk: 5
+  fields: 
+    question: "トミーの誕生日は7月26日である。"
+    answer: true
+    comment: "正解は〇！トミーさんの誕生日は7月26日です。ちなみに10月31日はトミーの日です。"  
+
+- model: app.Question_model
+  pk: 6
+  fields: 
+    question: "カンタはマレーシア出身である。"
+    answer: true
+    comment: "正解は〇！カンタさんはマレーシアで生まれ、日本→アメリカ→日本と生活の場所が変わっています。"  
+
+- model: app.Question_model
+  pk: 7
+  fields: 
+    question: "メインの動画総数は2000本を超えている。"
+    answer: true
+    comment: "正解は〇！現在のメインの動画総数は2233本です。" 
+    
+- model: app.Question_model
+  pk: 8
+  fields: 
+    question: "トミーはガリガリ君を8秒で完食した。"
+    answer: true
+    comment: "正解は〇！トミーさんはガリガリ君を8秒で完食していました。" 
+
+- model: app.Question_model
+  pk: 9
+  fields: 
+    question: "水溜りボンドの撮影場所は4回変わっている。"
+    answer: true
+    comment: "正解は〇！撮影場所は4回変わっています。器楽室→アパート→めっちゃ後輩が住んでた家→キイチ・Pさん・まんずと住んでた家→別々の家という順番です。" 
+
+- model: app.Question_model
+  pk: 10
+  fields: 
+    question: "カンタはエビアレルギーである。"
+    answer: false
+    comment: "正解は✕！アレルギー検査の結果、エビアレルギーではないことが分かりました。" 
+
+- model: app.Question_model
+  pk: 11
+  fields: 
+    question: "トミーとカンタは同い年である。"
+    answer: false
+    comment: "正解は✕！トミーさんとカンタさんは同い年ではなく、トミーさんの方が1歳年上です。"
+    
+- model: app.Question_model
+  pk: 12
+  fields: 
+    question: "メインの動画でトミーのドッキリの成功確率は100％である。"
+    answer: true
+    comment: "正解は〇！トミーさんのドッキリの成功確率は100％です。ちなみにサブチャンでは一度犬にドッキリして失敗してました。" 
+    
+- model: app.Question_model
+  pk: 13
+  fields: 
+    question: "水溜りボンドの初投稿は2014年1月1日である。"
+    answer: false
+    comment: "正解は✕！初投稿は2014年ではなく2015年1月1日です。" 
+    
+- model: app.Question_model
+  pk: 14
+  fields: 
+    question: "初めて1000万回再生を達成した動画はチャーハンドッキリである。"
+    answer: false
+    comment: "正解は✕！初めて1000万回再生を達成した動画はチャーハンドッキリではなく逮捕ドッキリです。"
+    
+- model: app.Question_model
+  pk: 15
+  fields: 
+    question: "水溜りボンドが尊敬するYouTuberははじめしゃちょーである。"
+    answer: true
+    comment: "正解は〇！水溜りボンドさんははじめしゃちょーさんを尊敬しています。ちなみに僕（作成者）は水溜りボンドさんを尊敬しています。"   
+    
+- model: app.Question_model
+  pk: 16
+  fields: 
+    question: "カンタは高校の時に野球部に入っていた。"
+    answer: false
+    comment: "正解は✕！カンタさんは野球部ではなくバスケ部に入っていました。" 
+    
+- model: app.Question_model
+  pk: 17
+  fields: 
+    question: "トミーは動画編集をしたことがない。"
+    answer: false
+    comment: "正解は✕！トミーさんはサブチャンの編集を担当しています。" 
+
+- model: app.Question_model
+  pk: 18
+  fields: 
+    question: "水溜りボンドの2人は大学でお笑いサークルに入っていた。"
+    answer: true
+    comment: "正解は〇！水溜りボンドは大学のお笑いサークルで結成されました。" 
+    
+- model: app.Question_model
+  pk: 19
+  fields: 
+    question: "カンタさんの身長は172cｍである。"
+    answer: false
+    comment: "正解は✕！カンタさんの身長は172cmではなく168cmです。"  
+    
+- model: app.Question_model
+  pk: 20
+  fields: 
+    question: "今日の水溜りボンドの動画は見ましたか？"
+    answer: true
+    comment: "僕も見ました。毎回トミーさんのツッコミ数を数えています。"     
+    

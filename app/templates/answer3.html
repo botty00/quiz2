@@ -1,0 +1,64 @@
+{% extends 'base.html' %} 
+
+{% block header %}
+{% endblock header %}
+
+{% block content %}
+
+<a href="{% url 'logoutview' %}" class="btn btn-primary ">ログアウト</a>
+<table border="0" height="100%" width="100%">
+    <tr>
+      <td style="height:100%;" vertical-align="middle" align="center">
+      
+        <div class="container">
+         
+          <div class="container-fluid">
+            
+          
+          
+         {% if plg == 1 %}    
+         <div class="card" style="width: 15rem;">
+          <div class="card-body">
+            <font size="20em" face="游明朝 Demibold">正解</font>     
+            
+          </div>
+        </div> 
+          {% load static %}
+          <audio autoplay >
+          <source src="{% static '正解.mp3' %}" type="audio/mp3">
+          </audio>
+         {% else %} 
+         <div class="card" style="width: 15rem;">
+          <div class="card-body">
+            <font size="20em" face="游明朝 Demibold">不正解</font>      
+            
+          </div>
+        </div> 
+          {% load static %}
+          <audio autoplay >
+          <source src="{% static '不正解.mp3' %}" type="audio/mp3">
+          </audio>
+         {% endif %} 
+
+          <br><br><br><br>
+          <div class="card" >
+            <div class="card-body">
+              {{model.comment}} 
+              <br> <br> 
+              現在、{{number}}問正解！
+            </div>
+          </div> 
+          <br><br><br><br>
+          {% if flg == 1 %}
+　　　　　　<a href="{% url 'result' %}" class="btn btn-primary">結果発表</a>
+　　　　　 {% else %}
+           <a href="{% url 'question3' %}" class="btn btn-primary">次の問題へ</a>
+          {% endif %}
+          
+          
+          </div>
+        </div>
+      </td>
+    </tr>
+</table> 
+{% endblock content %}

@@ -1,0 +1,139 @@
+- model: app.Question_model3
+  pk: 1
+  fields: 
+    question: "一番コラボ数が多いのは東海オンエアである。"
+    answer: true
+    comment: "正解は〇！一番コラボ数が多いのは東海オンエアさんで、合計38回コラボしています。"
+
+- model: app.Question_model3
+  pk: 2
+  fields: 
+    question: "キイチの初登場の動画は「凄腕ナンパ師が出会いアプリするととんでもないことになる 【斉藤さん】」である。"
+    answer: false
+    comment: "正解は✕！キイチさんの初登場は「凄腕ナンパ師が出会いアプリするととんでもないことになる 【斉藤さん】」ではなく、「【ベイブレードバーストより強い？】べイブレードを自転車で引くととんでもないことになる」です。" 
+
+- model: app.Question_model3
+  pk: 3
+  fields: 
+    question: "Pさんの初登場の動画は「カーナビの指示を全部無視したら奇跡起きた」である。"
+    answer: true
+    comment: "正解は〇！Pさんの初登場の動画は「カーナビの指示を全部無視したら奇跡起きた」です。動画の中でPさんがボイパをやっています。"
+
+- model: app.Question_model3
+  pk: 4
+  fields: 
+    question: "まんずの初登場の動画は24時間生配信である。"
+    answer: true
+    comment: "正解は〇！まんずさんの初登場の動画は24時間生配信です。たけちよさんと歩いてディズニーに行っていました。"
+
+- model: app.Question_model3
+  pk: 5
+  fields: 
+    question: "カンタのドッキリの成功確率は50％以下である。"
+    answer: false
+    comment: "正解は✕！現在のカンタさんのドッキリの成功確率は72.1％です。"  
+
+- model: app.Question_model3
+  pk: 6
+  fields: 
+    question: "きゅうりをトランプ以外で切ったことがある。"
+    answer: true
+    comment: "正解は〇！トランプではなく年賀状できゅうりを切ったことがあります。" 
+
+- model: app.Question_model3
+  pk: 7
+  fields: 
+    question: "トミーは最初の動画からえりあしがあった。"
+    answer: false
+    comment: "正解は✕！最初の動画のトミーさんはえりあしがなかったです。（今も無いけど…）" 
+
+- model: app.Question_model3
+  pk: 8
+  fields: 
+    question: "wakutaは水溜りボンドの動画に出演したことがある。"
+    answer: true
+    comment: "正解は〇！。wakutaは水溜りボンドの動画に2回出演したことがあります。" 
+
+- model: app.Question_model3
+  pk: 9
+  fields: 
+    question: "カンタのつむじは7個ある。"
+    answer: false
+    comment: "正解は✕！カンタさんのつむじは7個ではなく5個です。「カンタ元お坊さん説を検証したら過去がやばすぎた【卒アル流出】」から引用しました。" 
+
+- model: app.Question_model3
+  pk: 10
+  fields: 
+    question: "顔出しNGなのにめっちゃ動画出てた後輩の名前はたぶちである。"
+    answer: false
+    comment: "正解は✕！顔出しNGなのにめっちゃ動画出てた後輩はたぶちさんではなく、牧野さんです。" 
+
+- model: app.Question_model3
+  pk: 11
+  fields: 
+    question: "ディズニーめっちゃ好きな後輩の名前はたぶちである。"
+    answer: false
+    comment: "正解は✕！ディズニーめっちゃ好きな後輩はたぶちさんではなく、大津さんです。" 
+
+- model: app.Question_model3
+  pk: 12
+  fields: 
+    question: "都市伝説に詳しい後輩はたぶちである。"
+    answer: false
+    comment: "正解は✕！都市伝説に詳しい後輩はたぶちさんではなく、なかじょうさんです。" 
+
+- model: app.Question_model3
+  pk: 13
+  fields: 
+    question: "クレーンゲームマスターの後輩はたぶちである。"
+    answer: false
+    comment: "正解は✕！クレーンゲームマスターの後輩はたぶちさんではなく、はまけんさんです。" 
+
+- model: app.Question_model3
+  pk: 14
+  fields: 
+    question: "バイオリンがめっちゃ得意な後輩はたぶちである。"
+    answer: false
+    comment: "正解は✕！バイオリンがめっちゃ得意な後輩はたぶちさんではなく、小森谷さんです。" 
+
+- model: app.Question_model3
+  pk: 15
+  fields: 
+    question: "カンタと中学から同じで、トミーと大学で学部が一緒の2人の共通の友達はたぶちである。"
+    answer: true
+    comment: "正解は〇！。カンタさんと中学から同じで、トミーさんと大学で学部が一緒の2人の共通の友達はたぶちさんです。ちょっとふざけました。すいませんでした。" 
+
+- model: app.Question_model3
+  pk: 16
+  fields: 
+    question: "無人島集団カキピーのリーダーはキイチである。"
+    answer: true
+    comment: "正解は〇！カキピーのリーダーはキイチさんです。呪いガチャ2から引用しました。" 
+
+- model: app.Question_model3
+  pk: 17
+  fields: 
+    question: "「隠しカメラでつまみ食いを現行犯で捕まえる！」という動画でトミーがつまみ食いしたのはマックのポテトだけである。"
+    answer: false
+    comment: "正解は✕！トミーさんはマックのポテトだけでなく、からあげくんもつまみ食いしていました。" 
+
+- model: app.Question_model3
+  pk: 18
+  fields: 
+    question: "2020年までの水溜りボンドのあいさつは「はいどうもー、水溜りボンドですー。ねっ！毎日動画頑張っていきましょう！」である。"
+    answer: false
+    comment: "正解は✕！「はいどうもー、水溜りボンドですー。ねっ！毎日動画頑張っていきましょう！」ではなく「はいどうもー、水溜りボンドですー。お願いしますー。ねっ！毎日動画頑張っていきましょう！」です。" 
+
+- model: app.Question_model3
+  pk: 19
+  fields: 
+    question: "ラファオワの正体は水溜りボンドである。"
+    answer: false
+    comment: "正解は✕！そんなわけないですよね。" 
+
+- model: app.Question_model3
+  pk: 20
+  fields: 
+    question: "水溜りボンドのことは好きですか？"
+    answer: true
+    comment: "正解は〇！ここまでやってくれた方はきっと水溜りボンドさん好きですよね！プレイしていただきありがとうございました！"                                                                                
