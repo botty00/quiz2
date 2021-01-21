@@ -31,7 +31,7 @@ try:
 except ImportError:
     pass
 
-ALLOWED_HOSTS = ['127.0.0.1','.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -116,6 +116,7 @@ DATABASES = {
 }
 '''
 
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -127,6 +128,7 @@ DATABASES = {
         'PORT': '5432',
     }
 }
+
 
 
 # Password validation
