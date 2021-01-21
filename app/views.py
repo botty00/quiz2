@@ -34,7 +34,7 @@ def loginview(request):
 
 def question1(request):
 
-
+#countは問題数、numberは正解数
 
     if 'count' in request.session:
         request.session['count']+=1
